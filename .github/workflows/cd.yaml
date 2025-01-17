@@ -11,7 +11,7 @@ jobs:
 
     steps:
       - name: Print Docker Username (Optional for Debugging)
-        run: echo "Docker Username: ${{ secrets.DOCKER_USERNAME }}"
+        run: echo ${{ secrets.DOCKER_USERNAME }}"
 
       - name: Checkout code
         uses: actions/checkout@v2
