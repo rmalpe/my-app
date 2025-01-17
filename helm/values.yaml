@@ -123,4 +123,4 @@ tolerations: []
 affinity: {}
 
 env:
-  APP_VERSION: latest
+  APP_VERSION: 5d1a137624d64cf476a3c0b62ef7293f74cda8bf
